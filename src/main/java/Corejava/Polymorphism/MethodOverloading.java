@@ -2,13 +2,10 @@ package Corejava.Polymorphism;
 
 public class MethodOverloading {
 
-    public void Calculate(String name1, String name2)
-    {
+    public void Calculate(String name1, String name2) {
         if (name1 == name2) {
             System.out.println("Your value is equal");
-        }
-        else
-        {
+        } else {
             System.out.println("Your value is not equal");
         }
     }
@@ -20,11 +17,15 @@ public class MethodOverloading {
 
     }
 
-    public void  Calculate(Float ab, Float ba) {
+    public void Calculate(float ab, float ba) {
         double abc = ab + ba;//widening perforamnce
         System.out.println("my float value is abc = " + abc);
 
+
     }
+
+
+
 
     public static void main(String[] args)
     {
