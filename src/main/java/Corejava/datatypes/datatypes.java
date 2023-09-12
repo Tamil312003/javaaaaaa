@@ -4,9 +4,9 @@ public class datatypes {
     public static void main(String[] args) {
         int a=19;
         double b=98.967;
-        float c=56.99999f;
+        float c=56.99999F;
         char d='A';
-        long l=6383049958l;
+        long l=6383049958L;
         String name="Tamil";
         System.out.println(a);
         System.out.println(b);

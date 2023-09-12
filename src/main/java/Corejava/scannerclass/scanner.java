@@ -21,7 +21,7 @@ public class scanner {
         String B = ss.next();
         System.out.println("my mother name is" + B);
         System.out.println("your phone number");
-        long C = 6383049958l;
+        long C =ss.nextLong();
         System.out.println("yours 10th mark percentage");
         float D = ss.nextFloat();
         System.out.println("my 10th mark percentage is" + D);

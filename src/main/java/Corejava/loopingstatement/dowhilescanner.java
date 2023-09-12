@@ -4,29 +4,37 @@ import java.util.Scanner;
 
 public class dowhilescanner {
     public static void main(String[] args) {
-
-        int standard=12;
+        Scanner ss = new Scanner(System.in);
+        // int mark1=2;
+        int mark1=5;
         do {
-            Scanner ss = new Scanner(System.in);
-            System.out.println("Enter your number ");
-            int mark = ss.nextInt();
+            System.out.println("Enter your biology mark ");
+           int mark = ss.nextInt();
+            mark++;
 
-                if (mark >= 20 && mark <= 90)
-                {
-                    System.out.println("you are are selected");
-                    mark++;
-                }
-                else
-                {
-                    System.out.println("mark is invalid");
-                }
+            if (mark >= 80) {
+                System.out.println("you are eligible for NEET");
+                mark++;
+            } else {
+                System.out.println("mark is invalid");
             }
-            while (standard>10) ;
-            {
-                System.out.println("invalid");
-            }
+
         }
+        while (mark1 < 0);
+
+
     }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

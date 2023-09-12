@@ -9,10 +9,9 @@ public class nestedifstatement {
         int cutoff = ss.nextInt();
         if (cutoff >= 185) {
             System.out.println("you are selected for engineering group");
-            Scanner SS = new Scanner(System.in);
             System.out.println("enter your biology mark and maths mark");
-            int biologymark = SS.nextInt();
-            int mathsmark = SS.nextInt();
+            int biologymark = ss.nextInt();
+            int mathsmark = ss.nextInt();
             if ((biologymark >= 95) || (mathsmark > 97)) {
                 System.out.println("you are selected for higher studies");
             } else {
