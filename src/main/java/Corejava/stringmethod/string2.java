@@ -12,7 +12,7 @@ public class string2 {
         System.out.println(a2.equals(a1));
         System.out.println(a.equalsIgnoreCase(a1));
         System.out.println(a==a1);
-        System.out.println(a.compareTo(a3));
+        System.out.println(a.compareTo(a2));
 
     }
 }

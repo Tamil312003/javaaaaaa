@@ -16,6 +16,9 @@ public class string1 {
         System.out.println(ss);
         String sss="selvan";
         System.out.println(sss.charAt(4));
+        String name="tamilselvan;";
+        String name1=new String(name);
+        System.out.println(name1);
 
 
 

@@ -8,4 +8,5 @@ public abstract class abstraction {
 
     public abstract  void ArithemeticOperator(int a,int b);//using no implemnet method with using abstract keyword
     public abstract void additional (int a, int b);
+
 }
