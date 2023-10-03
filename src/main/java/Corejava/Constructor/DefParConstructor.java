@@ -15,7 +15,7 @@ public class DefParConstructor {
     }
     public DefParConstructor(String AccountHolderName,Long AccountNo,Double AccountBalance)
     {
-     this.AccountHolderName=AccountHolderName;//
+     this.AccountHolderName=AccountHolderName;
       this.AccountNo =AccountNo;
        this.AccountBalance=AccountBalance;
     }
@@ -26,7 +26,7 @@ public class DefParConstructor {
     }
     public static void main(String[] args)
     {
-//        Classname objname=bnew Constructorname(or)MethodName;
+//        Classname objname=new Constructorname(or)MethodName;
         DefParConstructor def=new DefParConstructor();//Initialization an object is called constructor
         DefParConstructor def1=new DefParConstructor("SAm",978937837763l,89000.0);
         def1.A();
